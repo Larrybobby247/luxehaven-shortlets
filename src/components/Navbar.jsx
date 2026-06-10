@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-luxury-gold to-luxury-gold-dark flex items-center justify-center">
               <span className="font-playfair font-bold text-luxury-navy text-lg">LH</span>
             </div>
-            <div className="hidden md:block">
+            <div className="">
               <div className="font-playfair text-lg font-semibold text-luxury-ivory">LuxeHaven</div>
               <div className="font-cormorant text-xs text-luxury-gold/60 tracking-widest">
                 SHORT LETS & APARTMENTS
