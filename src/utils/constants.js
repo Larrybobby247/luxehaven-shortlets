@@ -8,6 +8,11 @@ import house3 from '../assets/house3.jpg'
 import house4 from '../assets/house4.jpg'
 import house5 from '../assets/house5.jpg'
 import house6 from '../assets/house6.jpg'
+import house7 from '../assets/house7_a.jpg'
+import house8 from '../assets/house7_b.jpg'
+import house9 from '../assets/house7_c.jpg'
+import house10 from '../assets/house7_d.jpg'
+
 
 export const BRAND = {
   name: 'LuxeHaven Short Lets & Apartments',
@@ -32,14 +37,14 @@ export const COLORS = {
 };
 
 export const HERO = {
-  heading: 'Your Premium Executive Sanctuary in Kwale, Delta State',
+  heading: 'Your Premium Executive Sanctuary Nationwide',
   description: 'Experience the ultimate home-away-from-home. Tailored for corporate executives and premium travelers seeking unparalleled security, privacy, and serene luxury.',
   ctaPrimary: 'Book Your Stay',
   ctaSecondary: 'Explore Suites',
 };
 
 export const ABOUT = {
-  shortDescription: 'LuxeHaven Short Lets & Apartments redefines premium hospitality in Delta State, offering executive-tier spaces with 24/7 technical and security infrastructure.',
+  shortDescription: 'LuxeHaven Short Lets & Apartments redefines premium hospitality Nationwide, offering executive-tier spaces with 24/7 technical and security infrastructure.',
   mission: 'To deliver top-tier, hotel-grade luxury with the privacy, comfort, and independence of a private residential estate.',
   values: [
     { icon: 'shield', label: 'Uncompromised Security' },
@@ -47,7 +52,7 @@ export const ABOUT = {
     { icon: 'bolt', label: 'Continuous Power' },
     { icon: 'user-secret', label: 'Absolute Privacy' },
   ],
-  whyUs: 'We bridge the gap between standard hotels and luxury residences. Our Kwale facilities are built specifically for travelers who demand high-speed connectivity, continuous productivity, and maximum peace of mind.',
+  whyUs: 'We bridge the gap between standard hotels and luxury residences. Our facilities are built specifically for travelers who demand high-speed connectivity, continuous productivity, and maximum peace of mind.',
 };
 
 export const SERVICES = [
@@ -56,14 +61,14 @@ export const SERVICES = [
     title: 'Executive Shortlet Stays',
     icon: 'house-user',
     desc: 'Immaculately maintained 1, 2, and 3-bedroom premium suites built for extended comfort.',
-    image: 'https://kimi-web-img.moonshot.cn/img/media.istockphoto.com/a95338b18b28015a3c18d2b673a0da4496602940.jpg',
+    image: house7,
   },
   {
     id: 2,
     title: 'Corporate Lodging & Workspace',
     icon: 'briefcase',
     desc: 'Quiet, ergonomic settings optimized with dedicated work desks for corporate remote executives.',
-    image: 'https://kimi-web-img.moonshot.cn/img/www.thespruce.com/bfec8e5ef2bd5af3f6642da86169c076f4b10547.jpeg',
+    image: house8,
   },
   {
     id: 3,
@@ -92,8 +97,8 @@ export const LISTINGS = [
   {
     id: 1,
     name: 'Luxehaven',
-    type: 'House for sale',
-    price: 'Negociable',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
     perNight: '',
     features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
     image: house1,
@@ -103,8 +108,8 @@ export const LISTINGS = [
   {
     id: 2,
     name: 'Luxehaven',
-    type: 'House for sale',
-    price: 'Negociable',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
     perNight: '',
     features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
     image: house2,
@@ -114,8 +119,8 @@ export const LISTINGS = [
   {
     id: 3,
     name: 'Luxehaven',
-    type: 'House for sale',
-    price: 'Negociable',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
     perNight: '',
     features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
     image: house3,
@@ -125,33 +130,77 @@ export const LISTINGS = [
   {
     id: 4,
     name: 'Luxehaven',
-    type: 'House for sale',
-    price: 'Negociable',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
     perNight: '',
     features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
-    image: house1,
+    image: house4,
     badge: 'Elite',
     badgeColor: 'luxury-gold',
   },
-  {
-    id: 5,
-    name: 'Luxehaven',
-    type: 'House for sale',
-    price: 'Negociable',
-    perNight: '',
-    features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
-    image: house1,
-    badge: 'Elite',
-    badgeColor: 'luxury-gold',
-  },
+  // {
+  //   id: 5,
+  //   name: 'Luxehaven',
+  //   type: 'LuxeHaven Shortlet and Apartments',
+  //   price: 'Pay in Arrival',
+  //   perNight: '',
+  //   features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
+  //   image: house5,
+  //   badge: 'Elite',
+  //   badgeColor: 'luxury-gold',
+  // },
   {
     id: 6,
     name: 'Luxehaven',
-    type: 'House for sale',
-    price: 'Negociable',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
     perNight: '',
     features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
-    image: house1,
+    image: house6,
+    badge: 'Elite',
+    badgeColor: 'luxury-gold',
+  },
+  {
+    id: 7,
+    name: 'Luxehaven',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
+    perNight: '',
+    features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
+    image: house7,
+    badge: 'Elite',
+    badgeColor: 'luxury-gold',
+  },
+  {
+    id: 8,
+    name: 'Luxehaven',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
+    perNight: '',
+    features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
+    image: house8,
+    badge: 'Elite',
+    badgeColor: 'luxury-gold',
+  },
+  {
+    id: 9,
+    name: 'Luxehaven',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
+    perNight: '',
+    features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
+    image: house9,
+    badge: 'Elite',
+    badgeColor: 'luxury-gold',
+  },
+  {
+    id: 10,
+    name: 'Luxehaven',
+    type: 'LuxeHaven Shortlet and Apartments',
+    price: 'Pay in Arrival',
+    perNight: '',
+    features: ['En-suite Layout', 'Dedicated Work Station', 'Smart Security'],
+    image: house10,
     badge: 'Elite',
     badgeColor: 'luxury-gold',
   },
@@ -200,12 +249,12 @@ export const TESTIMONIALS = [
 ];
 
 export const GALLERY = [
-  { id: 1, caption: 'Sophisticated Living Room Aesthetics', src: house1 },
+  { id: 1, caption: 'Sophisticated Living Room Aesthetics', src: house7 },
   { id: 2, caption: 'Fine Dining Restaurant', src: house2 },
-  { id: 3, caption: 'Premium En-suite Bedroom Setup', src: house4 },
+  { id: 3, caption: 'Premium En-suite Bedroom Setup', src: house8 },
   { id: 4, caption: 'Secure Exterior Architecture', src: house3},
-  { id: 5, caption: 'Modern Executive Restroom', src: house6 },
-  { id: 6, caption: 'Dedicated Workspace & Office Lounge', src: house5},
+  { id: 5, caption: 'Modern Executive Restroom', src: house10 },
+  { id: 6, caption: 'Dedicated Workspace & Office Lounge', src: house9},
 ];
 
 export const OFFERS = [

@@ -2,6 +2,7 @@ import React from 'react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import { ABOUT } from '../utils/constants';
 import { FaBed, FaBolt, FaUserSecret, FaUserShield } from 'react-icons/fa';
+import house9 from '../assets/house7_c.jpg'
 
 const iconMap = {
   shield: FaUserShield,
@@ -59,7 +60,7 @@ const About = () => {
           <div ref={rightRef} className="relative">
             <div className="relative z-10 img-zoom rounded-2xl overflow-hidden">
               <img
-                src="https://kimi-web-img.moonshot.cn/img/render-vision.com/11a230450c88312ff6c6e08a7d1cdd062eb1e765.webp"
+                src= {house9}
                 alt="LuxeHaven Exterior"
                 className="w-full h-[500px] object-cover"
               />

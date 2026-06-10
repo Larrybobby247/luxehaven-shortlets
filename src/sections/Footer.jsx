@@ -113,7 +113,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-luxury-gold/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-inter text-sm text-luxury-ivory/40">
-            2024 LuxeHaven Short Lets & Apartments. All rights reserved.
+            2026 LuxeHaven Short Lets & Apartments. Created by <a href="https://larrywebsolutions.vercel.app" className='text-luxury-gold-light'>Larry Web Solutions</a>
           </p>
           <div className="flex gap-6">
             <a href="#" className="font-inter text-sm text-luxury-ivory/40 hover:text-luxury-gold transition-colors">
