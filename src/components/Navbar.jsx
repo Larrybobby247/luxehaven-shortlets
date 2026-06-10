@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaMinus, FaTimes } from 'react-icons/fa';
+import Logo from '../assets/logo.jpg'
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-30 transition-transform duration-500 ${
+      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-500 ${
         visible ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
@@ -32,7 +33,8 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-luxury-gold to-luxury-gold-dark flex items-center justify-center">
-              <span className="font-playfair font-bold text-luxury-navy text-lg">LH</span>
+              {/* <span className="font-playfair font-bold text-luxury-navy text-lg">LH</span> */}
+              <img src={Logo} alt={Logo} className='rounded-full'/>
             </div>
             <div className="">
               <div className="font-playfair text-lg font-semibold text-luxury-ivory">LuxeHaven</div>

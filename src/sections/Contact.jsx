@@ -81,13 +81,13 @@ const Contact = () => {
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div ref={leftRef}>
+          <div ref={leftRef} >
             {/* Contact Information */}
             <div className="glass-light rounded-2xl p-8 mb-8">
               <h3 className="font-playfair text-2xl font-semibold text-luxury-ivory mb-6">
                 Contact Information
               </h3>
-              <div className="space-y-6">
+              <div className="space-y-6 w-full">
                 {contactInfo.map((item, index) => (
                   <a
                     key={index}
@@ -100,7 +100,7 @@ const Contact = () => {
                       <item.icon className="text-luxury-gold" />
                     </div>
                     <div>
-                      <p className="font-inter text-sm text-luxury-gold/60 mb-1">{item.label}</p>
+                      <p className="font-inter text-sm text-luxury-gold/60 mb-1 ">{item.label}</p>
                       <p className={`font-inter text-luxury-ivory ${item.isWhatsApp ? 'text-luxury-gold hover:text-luxury-gold-light transition-colors' : ''}`}>
                         {item.value}
                       </p>

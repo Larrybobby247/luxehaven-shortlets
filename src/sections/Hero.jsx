@@ -171,7 +171,7 @@ const Hero = () => {
 
         <h1 ref={descRef} className="hero-title font-playfair font-bold text-luxury-ivory mb-6 text-shadow">
           Your Premium Executive<br />
-          <span className="gold-gradient-text">Sanctuary in Kwale</span>
+          <span className="gold-gradient-text">Sanctuary Nationwide</span>
         </h1>
 
         <p ref={ctaRef} className="font-inter text-lg md:text-xl text-luxury-ivory/70 max-w-2xl mx-auto mb-10 leading-relaxed">

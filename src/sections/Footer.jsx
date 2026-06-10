@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BRAND } from '../utils/constants';
 import { FaInstagram, FaFacebookF, FaWhatsapp, FaArrowRight } from 'react-icons/fa';
+import Logo from '../assets/logo.jpg'
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -35,7 +36,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-luxury-gold to-luxury-gold-dark flex items-center justify-center">
-                <span className="font-playfair font-bold text-luxury-navy text-lg">LH</span>
+                <img src={Logo} alt={Logo} className='rounded-full'/>
               </div>
               <div>
                 <div className="font-playfair text-lg font-semibold text-luxury-ivory">LuxeHaven</div>
@@ -45,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="font-inter text-sm text-luxury-ivory/60 leading-relaxed mb-6">
-              Redefining premium corporate and leisure hospitality in Delta State through elite security, absolute privacy, and seamless comfort.
+              Redefining premium corporate and leisure hospitality nationwide through elite security, absolute privacy, and seamless comfort.
             </p>
             <div className="flex gap-3">
               <a href={BRAND.socials.instagram} target="_blank" rel="noopener noreferrer" className="social-icon">
